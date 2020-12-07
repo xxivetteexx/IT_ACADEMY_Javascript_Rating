@@ -9,13 +9,76 @@
     font-size:0.9rem;
 }
 
+/* Posición de los icones en pantalla */
 .icons1,.icons2, .icons3, .icons4, .icons5 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
 }
 
-/* Exercici 1 */
+/* Eliminación de bulletpoints y organización horizontal */
+.icons1 li,.icons2 li, .icons3 li, .icons4 li, .icons5 li{
+    text-decoration: none; 
+    margin:0px;
+    display:inline; 
+}
+
+
+/* __________Exercici 1__________ */
 .icons1{
     color: rgb(118, 32, 255);
 }
+
+/*__________ Exercici 2 __________*/
+.icons2 li{
+    color: #000;
+    margin:0px;
+}
+
+.icons2 li:hover{
+    color: rgb(1, 180, 1);
+}
+
+/*__________ Exercici 3 __________*/
+
+.icons3 li {
+    float: right;
+    margin:0px;  
+    color: #000; 
+}
+
+.icons3 li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.icons3 li:hover ~ li  {
+    color: rgb(255, 0, 0);
+    opacity: .4;  
+}
+
+
+  /* li {
+    float: right;
+    background: #123c6c;
+    list-style: none;
+    text-align: center;
+    width: 15vw;
+    min-width: 125px;
+    height: 20vh;
+    line-height: 20vh;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0,0,0,.4);
+    transition: all 1s;
+  }
+  li:before {
+    counter-increment: numera;
+    content: counter(numera) ".- ";
+  }
+  li:hover {
+    background: tomato;
+  }
+  li:hover ~ li {
+    background: tomato;
+    opacity: .4;
+  } */
