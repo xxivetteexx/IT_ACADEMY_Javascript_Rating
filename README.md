@@ -10,18 +10,23 @@ Rate the icons with Javascript
 #### Level :one:
 
 ```Exercice 1```
+
 Show on the screen 5 stars (or the icon you like best) centered and with an assigned color.
 
 ```Exercice 2```
+
 The color of the icon must change if the mouse is placed on one of them.
 
 ```Exercice 3```
+
 By moving the mouse over an item, it changes colors to all its previous ones. For example, if you hover the mouse over the third star, you have to change the color from 1 to 3. 
 
 ```Exercice 4```
+
 When an icon is clicked the colors must be fixed.
 
 ```Exercice 5```
+
 If you click on another star, the colors must be updated correctly. Also, if the user clicks outside the star area, they must all be deselected.
 
 
